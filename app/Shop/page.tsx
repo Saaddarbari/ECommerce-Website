@@ -65,309 +65,707 @@ export default function Shop() {
     <section className="m-auto mb-10 flex w-full lg:w-[90%] xl:w-[1300px] md:max-w-[1280px] overflow-hidden flex-col">
       <div className="grid grid-rows-4 grid-cols-4 gap-y-[1rem] max-sm:gap-y-[4rem]	mr-10 ml-8 max-sm:mx-5  max-sm:gap-2 items-center justify-center mt-10 max-sm:grid-rows-4 max-sm:grid-cols-2 px-[7.5rem] max-sm:px-0 w-full ">
       <Link href="/Products/Product01">
-        <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative">
-        <Image 
-            alt="product"
-            width="600" 
-            height="600"
-            className="w-full h-[70%] object-cover " 
-            src="/image 1.png"
-            />
-            <div className="ml-2 mt-2">
-            <span className="font-medium  xs:text-base text-[1rem]">Syltherine</span>
-           <br />
-           <div className="xs:text-base text-sm mt-2">
-               <span className="text-[#898989]">Stylish cafe chair</span><br />
-               <span className="text-[#3A3A3A] text-sm font-medium">Rp 2.500.000</span> 
-             </div>
-             </div>
-           </div>
-        </Link>
-        <Link href="/Products/Product02">
-        <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
-        <Image 
-            alt="product"
-            width="600" 
-            height="600"
-            className="w-full h-[70%] object-cover" 
-            src="/image 2.png"
-            />
-            <div className="ml-2 mt-2">
-            <span className="font-medium  xs:text-base text-[1rem]">Leviosa</span>
-           <br />
-           <div className="xs:text-base text-sm mt-2">
-               <span className="text-[#898989]">Stylish cafe chair</span><br />
-               <span className="text-[#3A3A3A] text-sm font-medium">Rp 2.500.000</span> 
-             </div>
-             </div>
-           </div>
-        </Link>
-        <Link href="/Products/Product03">
-        <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
-        <Image 
-            alt="product"
-            width="600" 
-            height="600"
-            className="w-full h-[70%] object-cover" 
-            src="/image 3.png"
-            />
-            <div className="ml-2 mt-2">
-            <span className="font-medium  xs:text-base text-[1rem]">Lolito</span>
-           <br />
-           <div className="xs:text-base text-sm mt-2">
-               <span className="text-[#898989]">MLuxury big sofa</span><br />
-               <span className="text-[#3A3A3A] text-sm font-medium">Rp 7.000.000</span> 
-             </div>
-             </div>
-           </div>
-        </Link>
-        <Link href="/Products/Product04">
-        <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
-        <Image 
-            alt="product"
-            width="600" 
-            height="600"
-            className="w-full h-[70%] object-cover" 
-            src="/image 4.png"
-            />
-            <div className="ml-2 mt-2">
-            <span className="font-medium  xs:text-base text-[1rem]">Respira</span>
-           <br />
-           <div className="xs:text-base text-sm mt-2">
-               <span className="text-[#898989]">Outdoor bar table and stool</span><br />
-               <span className="text-[#3A3A3A] text-sm font-medium">Rp 500.000</span> 
-             </div>
-             </div>
-           </div>
-        </Link>
-        <Link href="/Products/Product05">
-        <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
-        <Image 
-            alt="product"
-            width="600" 
-            height="600"
-            className="w-full h-[70%] object-cover" 
-            src="/image 9.png"
-            />
-            <div className="ml-2 mt-2">
-            <span className="font-medium  xs:text-base text-[1rem]">Grifo</span>
-           <br />
-           <div className="xs:text-base text-sm mt-2">
-               <span className="text-[#898989]">Night lamp</span><br />
-               <span className="text-[#3A3A3A] text-sm font-medium">Rp 1.500.000</span> 
-             </div>
-             </div>
-           </div>
-        </Link>
-        <Link href="/Products/Product06">
-        <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
-        <Image 
-            alt="product"
-            width="600" 
-            height="600"
-            className="w-full h-[70%] object-cover" 
-            src="/image 6.png"
-            />
-            <div className="ml-2 mt-2">
-            <span className="font-medium  xs:text-base text-[1rem]">Muggo</span>
-           <br />
-           <div className="xs:text-base text-sm mt-2">
-               <span className="text-[#898989]">Small mug</span><br />
-               <span className="text-[#3A3A3A] text-sm font-medium">Rp 150.000</span> 
-             </div>
-             </div>
-           </div>
-        </Link>
-        <Link href="/Products/Product07">
-        <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
-        <Image 
-            alt="product"
-            width="600" 
-            height="600"
-            className="w-full h-[70%] object-cover" 
-            src="/image 7.png"
-            />
-            <div className="ml-2 mt-2">
-            <span className="font-medium  xs:text-base text-[1rem]">Pingky</span>
-           <br />
-           <div className="xs:text-base text-sm mt-2">
-               <span className="text-[#898989]">Cute bed set</span><br />
-               <span className="text-[#3A3A3A] text-sm font-medium">Rp 7.000.000</span> 
-             </div>
-             </div>
-           </div>
-        </Link>
-        <Link href="/Products/Product08">
-        <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
-        <Image 
-            alt="product"
-            width="600" 
-            height="600"
-            className="w-full h-[70%] object-cover" 
-            src="/image 8.png"
-            />
-            <div className="ml-2 mt-2">
-            <span className="font-medium  xs:text-base text-[1rem]">Potty</span>
-           <br />
-           <div className="xs:text-base text-sm mt-2">
-               <span className="text-[#898989]">Minimalist flower pot</span><br />
-               <span className="text-[#3A3A3A] text-sm font-medium">Rp 500.000</span> 
-             </div>
-             </div>
-           </div>
-        </Link>
-      <Link href="/Products/Product01">
-        <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative">
-        <Image 
-            alt="product"
-            width="600" 
-            height="600"
-            className="w-full h-[70%] object-cover " 
-            src="/image 1.png"
-            />
-            <div className="ml-2 mt-2">
-            <span className="font-medium  xs:text-base text-[1rem]">Syltherine</span>
-           <br />
-           <div className="xs:text-base text-sm mt-2">
-               <span className="text-[#898989]">Stylish cafe chair</span><br />
-               <span className="text-[#3A3A3A] text-sm font-medium">Rp 2.500.000</span> 
-             </div>
-             </div>
-           </div>
-        </Link>
-        <Link href="/Products/Product02">
-        <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
-        <Image 
-            alt="product"
-            width="600" 
-            height="600"
-            className="w-full h-[70%] object-cover" 
-            src="/image 2.png"
-            />
-            <div className="ml-2 mt-2">
-            <span className="font-medium  xs:text-base text-[1rem]">Leviosa</span>
-           <br />
-           <div className="xs:text-base text-sm mt-2">
-               <span className="text-[#898989]">Stylish cafe chair</span><br />
-               <span className="text-[#3A3A3A] text-sm font-medium">Rp 2.500.000</span> 
-             </div>
-             </div>
-           </div>
-        </Link>
-        <Link href="/Products/Product03">
-        <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
-        <Image 
-            alt="product"
-            width="600" 
-            height="600"
-            className="w-full h-[70%] object-cover" 
-            src="/image 3.png"
-            />
-            <div className="ml-2 mt-2">
-            <span className="font-medium  xs:text-base text-[1rem]">Lolito</span>
-           <br />
-           <div className="xs:text-base text-sm mt-2">
-               <span className="text-[#898989]">MLuxury big sofa</span><br />
-               <span className="text-[#3A3A3A] text-sm font-medium">Rp 7.000.000</span> 
-             </div>
-             </div>
-           </div>
-        </Link>
-        <Link href="/Products/Product04">
-        <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
-        <Image 
-            alt="product"
-            width="600" 
-            height="600"
-            className="w-full h-[70%] object-cover" 
-            src="/image 4.png"
-            />
-            <div className="ml-2 mt-2">
-            <span className="font-medium  xs:text-base text-[1rem]">Respira</span>
-           <br />
-           <div className="xs:text-base text-sm mt-2">
-               <span className="text-[#898989]">Outdoor bar table and stool</span><br />
-               <span className="text-[#3A3A3A] text-sm font-medium">Rp 500.000</span> 
-             </div>
-             </div>
-           </div>
-        </Link>
-        <Link href="/Products/Product05">
-        <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
-        <Image 
-            alt="product"
-            width="600" 
-            height="600"
-            className="w-full h-[70%] object-cover" 
-            src="/image 9.png"
-            />
-            <div className="ml-2 mt-2">
-            <span className="font-medium  xs:text-base text-[1rem]">Grifo</span>
-           <br />
-           <div className="xs:text-base text-sm mt-2">
-               <span className="text-[#898989]">Night lamp</span><br />
-               <span className="text-[#3A3A3A] text-sm font-medium">Rp 1.500.000</span> 
-             </div>
-             </div>
-           </div>
-        </Link>
-        <Link href="/Products/Product06">
-        <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
-        <Image 
-            alt="product"
-            width="600" 
-            height="600"
-            className="w-full h-[70%] object-cover" 
-            src="/image 6.png"
-            />
-            <div className="ml-2 mt-2">
-            <span className="font-medium  xs:text-base text-[1rem]">Muggo</span>
-           <br />
-           <div className="xs:text-base text-sm mt-2">
-               <span className="text-[#898989]">Small mug</span><br />
-               <span className="text-[#3A3A3A] text-sm font-medium">Rp 150.000</span> 
-             </div>
-             </div>
-           </div>
-        </Link>
-        <Link href="/Products/Product07">
-        <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
-        <Image 
-            alt="product"
-            width="600" 
-            height="600"
-            className="w-full h-[70%] object-cover" 
-            src="/image 7.png"
-            />
-            <div className="ml-2 mt-2">
-            <span className="font-medium  xs:text-base text-[1rem]">Pingky</span>
-           <br />
-           <div className="xs:text-base text-sm mt-2">
-               <span className="text-[#898989]">Cute bed set</span><br />
-               <span className="text-[#3A3A3A] text-sm font-medium">Rp 7.000.000</span> 
-             </div>
-             </div>
-           </div>
-        </Link>
-        <Link href="/Products/Product08">
-        <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
-        <Image 
-            alt="product"
-            width="600" 
-            height="600"
-            className="w-full h-[70%] object-cover" 
-            src="/image 8.png"
-            />
-            <div className="ml-2 mt-2">
-            <span className="font-medium  xs:text-base text-[1rem]">Potty</span>
-           <br />
-           <div className="xs:text-base text-sm mt-2">
-               <span className="text-[#898989]">Minimalist flower pot</span><br />
-               <span className="text-[#3A3A3A] text-sm font-medium">Rp 500.000</span> 
-             </div>
-             </div>
-           </div>
-        </Link>
+            <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
+              {/* Product Image */}
+              <Image
+                alt="product"
+                width="600"
+                height="600"
+                className="w-full h-[70%] object-cover"
+                src="/image 1.png"
+              />
+
+              {/* Product Details */}
+              <div className="ml-2 mt-2">
+                <span className="font-medium xs:text-base text-[1rem]">Syltherine</span>
+                <br />
+                <div className="xs:text-base text-sm mt-2">
+                  <span className="text-[#898989]">Stylish cafe chair</span>
+                  <br />
+                  <span className="text-[#3A3A3A] text-sm font-medium">Rp 2.500.000</span>
+                </div>
+              </div>
+
+              {/* Hover Overlay */}
+              <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
+                <button
+                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  type="button"
+                >
+                  View Product
+                </button>
+
+                {/* Action Buttons */}
+                <div className="flex justify-center gap-5 mt-4">
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (9).png" />
+                    <Link className="text-white" href="/Products/Product01">Share</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (10).png" />
+                    <Link className="text-white" href="/Camparison">Compare</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (11).png" />
+                    <Link className="text-white" href="/">Like</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </Link>
+          <Link href="/Products/Product02">
+            <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
+              <Image
+                alt="product"
+                width="600"
+                height="600"
+                className="w-full h-[70%] object-cover"
+                src="/image 2.png"
+              />
+              <div className="ml-2 mt-2">
+                <span className="font-medium  xs:text-base text-[1rem]">Leviosa</span>
+                <br />
+                <div className="xs:text-base text-sm mt-2">
+                  <span className="text-[#898989]">Stylish cafe chair</span><br />
+                  <span className="text-[#3A3A3A] text-sm font-medium">Rp 2.500.000</span>
+                </div>
+              </div>
+              <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
+                <button
+                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  type="button"
+                >
+                  View Product
+                </button>
+
+                {/* Action Buttons */}
+                <div className="flex justify-center gap-5 mt-4">
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (9).png" />
+                    <Link className="text-white" href="/Products/Product02">Share</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (10).png" />
+                    <Link className="text-white" href="/Camparison">Compare</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (11).png" />
+                    <Link className="text-white" href="/">Like</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link href="/Products/Product03">
+            <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
+              <Image
+                alt="product"
+                width="600"
+                height="600"
+                className="w-full h-[70%] object-cover"
+                src="/image 3.png"
+              />
+              <div className="ml-2 mt-2">
+                <span className="font-medium  xs:text-base text-[1rem]">Lolito</span>
+                <br />
+                <div className="xs:text-base text-sm mt-2">
+                  <span className="text-[#898989]">MLuxury big sofa</span><br />
+                  <span className="text-[#3A3A3A] text-sm font-medium">Rp 7.000.000</span>
+                </div>
+              </div>
+              <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
+                <button
+                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  type="button"
+                >
+                  View Product
+                </button>
+
+                {/* Action Buttons */}
+                <div className="flex justify-center gap-5 mt-4">
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (9).png" />
+                    <Link className="text-white" href="/Products/Product03">Share</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (10).png" />
+                    <Link className="text-white" href="/Camparison">Compare</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (11).png" />
+                    <Link className="text-white" href="/">Like</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link href="/Products/Product04">
+            <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
+              <Image
+                alt="product"
+                width="600"
+                height="600"
+                className="w-full h-[70%] object-cover"
+                src="/image 4.png"
+              />
+              <div className="ml-2 mt-2">
+                <span className="font-medium  xs:text-base text-[1rem]">Respira</span>
+                <br />
+                <div className="xs:text-base text-sm mt-2">
+                  <span className="text-[#898989]">Outdoor bar table and stool</span><br />
+                  <span className="text-[#3A3A3A] text-sm font-medium">Rp 500.000</span>
+                </div>
+              </div>
+              <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
+                <button
+                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  type="button"
+                >
+                  View Product
+                </button>
+
+                {/* Action Buttons */}
+                <div className="flex justify-center gap-5 mt-4">
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (9).png" />
+                    <Link className="text-white" href="/Products/Product04">Share</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (10).png" />
+                    <Link className="text-white" href="/Camparison">Compare</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (11).png" />
+                    <Link className="text-white" href="/">Like</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link href="/Products/Product05">
+            <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
+              <Image
+                alt="product"
+                width="600"
+                height="600"
+                className="w-full h-[70%] object-cover"
+                src="/image 9.png"
+              />
+              <div className="ml-2 mt-2">
+                <span className="font-medium  xs:text-base text-[1rem]">Grifo</span>
+                <br />
+                <div className="xs:text-base text-sm mt-2">
+                  <span className="text-[#898989]">Night lamp</span><br />
+                  <span className="text-[#3A3A3A] text-sm font-medium">Rp 1.500.000</span>
+                </div>
+              </div>
+              <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
+                <button
+                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  type="button"
+                >
+                  View Product
+                </button>
+
+                {/* Action Buttons */}
+                <div className="flex justify-center gap-5 mt-4">
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (9).png" />
+                    <Link className="text-white" href="/Products/Product05">Share</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (10).png" />
+                    <Link className="text-white" href="/Camparison">Compare</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (11).png" />
+                    <Link className="text-white" href="/">Like</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link href="/Products/Product06">
+            <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
+              <Image
+                alt="product"
+                width="600"
+                height="600"
+                className="w-full h-[70%] object-cover"
+                src="/image 6.png"
+              />
+              <div className="ml-2 mt-2">
+                <span className="font-medium  xs:text-base text-[1rem]">Muggo</span>
+                <br />
+                <div className="xs:text-base text-sm mt-2">
+                  <span className="text-[#898989]">Small mug</span><br />
+                  <span className="text-[#3A3A3A] text-sm font-medium">Rp 150.000</span>
+                </div>
+              </div>
+              <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
+                <button
+                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  type="button"
+                >
+                  View Product
+                </button>
+
+                {/* Action Buttons */}
+                <div className="flex justify-center gap-5 mt-4">
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (9).png" />
+                    <Link className="text-white" href="/Products/Product06">Share</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (10).png" />
+                    <Link className="text-white" href="/Camparison">Compare</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (11).png" />
+                    <Link className="text-white" href="/">Like</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link href="/Products/Product07">
+            <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
+              <Image
+                alt="product"
+                width="600"
+                height="600"
+                className="w-full h-[70%] object-cover"
+                src="/image 7.png"
+              />
+              <div className="ml-2 mt-2">
+                <span className="font-medium  xs:text-base text-[1rem]">Pingky</span>
+                <br />
+                <div className="xs:text-base text-sm mt-2">
+                  <span className="text-[#898989]">Cute bed set</span><br />
+                  <span className="text-[#3A3A3A] text-sm font-medium">Rp 7.000.000</span>
+                </div>
+              </div>
+              <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
+                <button
+                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  type="button"
+                >
+                  View Product
+                </button>
+
+                {/* Action Buttons */}
+                <div className="flex justify-center gap-5 mt-4">
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (9).png" />
+                    <Link className="text-white" href="/Products/Product07">Share</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (10).png" />
+                    <Link className="text-white" href="/Camparison">Compare</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (11).png" />
+                    <Link className="text-white" href="/">Like</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link href="/Products/Product08">
+            <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
+              <Image
+                alt="product"
+                width="600"
+                height="600"
+                className="w-full h-[70%] object-cover"
+                src="/image 8.png"
+              />
+              <div className="ml-2 mt-2">
+                <span className="font-medium  xs:text-base text-[1rem]">Potty</span>
+                <br />
+                <div className="xs:text-base text-sm mt-2">
+                  <span className="text-[#898989]">Minimalist flower pot</span><br />
+                  <span className="text-[#3A3A3A] text-sm font-medium">Rp 500.000</span>
+                </div>
+              </div>
+              <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
+                <button
+                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  type="button"
+                >
+                  View Product
+                </button>
+
+                {/* Action Buttons */}
+                <div className="flex justify-center gap-5 mt-4">
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (9).png" />
+                    <Link className="text-white" href="/Products/Product08">Share</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (10).png" />
+                    <Link className="text-white" href="/Camparison">Compare</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (11).png" />
+                    <Link className="text-white" href="/">Like</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link href="/Products/Product01">
+            <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
+              {/* Product Image */}
+              <Image
+                alt="product"
+                width="600"
+                height="600"
+                className="w-full h-[70%] object-cover"
+                src="/image 1.png"
+              />
+
+              {/* Product Details */}
+              <div className="ml-2 mt-2">
+                <span className="font-medium xs:text-base text-[1rem]">Syltherine</span>
+                <br />
+                <div className="xs:text-base text-sm mt-2">
+                  <span className="text-[#898989]">Stylish cafe chair</span>
+                  <br />
+                  <span className="text-[#3A3A3A] text-sm font-medium">Rp 2.500.000</span>
+                </div>
+              </div>
+
+              {/* Hover Overlay */}
+              <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
+                <button
+                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  type="button"
+                >
+                  View Product
+                </button>
+
+                {/* Action Buttons */}
+                <div className="flex justify-center gap-5 mt-4">
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (9).png" />
+                    <Link className="text-white" href="/Products/Product01">Share</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (10).png" />
+                    <Link className="text-white" href="/Camparison">Compare</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (11).png" />
+                    <Link className="text-white" href="/">Like</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </Link>
+          <Link href="/Products/Product02">
+            <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
+              <Image
+                alt="product"
+                width="600"
+                height="600"
+                className="w-full h-[70%] object-cover"
+                src="/image 2.png"
+              />
+              <div className="ml-2 mt-2">
+                <span className="font-medium  xs:text-base text-[1rem]">Leviosa</span>
+                <br />
+                <div className="xs:text-base text-sm mt-2">
+                  <span className="text-[#898989]">Stylish cafe chair</span><br />
+                  <span className="text-[#3A3A3A] text-sm font-medium">Rp 2.500.000</span>
+                </div>
+              </div>
+              <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
+                <button
+                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  type="button"
+                >
+                  View Product
+                </button>
+
+                {/* Action Buttons */}
+                <div className="flex justify-center gap-5 mt-4">
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (9).png" />
+                    <Link className="text-white" href="/Products/Product02">Share</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (10).png" />
+                    <Link className="text-white" href="/Camparison">Compare</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (11).png" />
+                    <Link className="text-white" href="/">Like</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link href="/Products/Product03">
+            <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
+              <Image
+                alt="product"
+                width="600"
+                height="600"
+                className="w-full h-[70%] object-cover"
+                src="/image 3.png"
+              />
+              <div className="ml-2 mt-2">
+                <span className="font-medium  xs:text-base text-[1rem]">Lolito</span>
+                <br />
+                <div className="xs:text-base text-sm mt-2">
+                  <span className="text-[#898989]">MLuxury big sofa</span><br />
+                  <span className="text-[#3A3A3A] text-sm font-medium">Rp 7.000.000</span>
+                </div>
+              </div>
+              <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
+                <button
+                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  type="button"
+                >
+                  View Product
+                </button>
+
+                {/* Action Buttons */}
+                <div className="flex justify-center gap-5 mt-4">
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (9).png" />
+                    <Link className="text-white" href="/Products/Product03">Share</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (10).png" />
+                    <Link className="text-white" href="/Camparison">Compare</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (11).png" />
+                    <Link className="text-white" href="/">Like</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link href="/Products/Product04">
+            <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
+              <Image
+                alt="product"
+                width="600"
+                height="600"
+                className="w-full h-[70%] object-cover"
+                src="/image 4.png"
+              />
+              <div className="ml-2 mt-2">
+                <span className="font-medium  xs:text-base text-[1rem]">Respira</span>
+                <br />
+                <div className="xs:text-base text-sm mt-2">
+                  <span className="text-[#898989]">Outdoor bar table and stool</span><br />
+                  <span className="text-[#3A3A3A] text-sm font-medium">Rp 500.000</span>
+                </div>
+              </div>
+              <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
+                <button
+                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  type="button"
+                >
+                  View Product
+                </button>
+
+                {/* Action Buttons */}
+                <div className="flex justify-center gap-5 mt-4">
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (9).png" />
+                    <Link className="text-white" href="/Products/Product04">Share</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (10).png" />
+                    <Link className="text-white" href="/Camparison">Compare</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (11).png" />
+                    <Link className="text-white" href="/">Like</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link href="/Products/Product05">
+            <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
+              <Image
+                alt="product"
+                width="600"
+                height="600"
+                className="w-full h-[70%] object-cover"
+                src="/image 9.png"
+              />
+              <div className="ml-2 mt-2">
+                <span className="font-medium  xs:text-base text-[1rem]">Grifo</span>
+                <br />
+                <div className="xs:text-base text-sm mt-2">
+                  <span className="text-[#898989]">Night lamp</span><br />
+                  <span className="text-[#3A3A3A] text-sm font-medium">Rp 1.500.000</span>
+                </div>
+              </div>
+              <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
+                <button
+                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  type="button"
+                >
+                  View Product
+                </button>
+
+                {/* Action Buttons */}
+                <div className="flex justify-center gap-5 mt-4">
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (9).png" />
+                    <Link className="text-white" href="/Products/Product05">Share</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (10).png" />
+                    <Link className="text-white" href="/Camparison">Compare</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (11).png" />
+                    <Link className="text-white" href="/">Like</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link href="/Products/Product06">
+            <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
+              <Image
+                alt="product"
+                width="600"
+                height="600"
+                className="w-full h-[70%] object-cover"
+                src="/image 6.png"
+              />
+              <div className="ml-2 mt-2">
+                <span className="font-medium  xs:text-base text-[1rem]">Muggo</span>
+                <br />
+                <div className="xs:text-base text-sm mt-2">
+                  <span className="text-[#898989]">Small mug</span><br />
+                  <span className="text-[#3A3A3A] text-sm font-medium">Rp 150.000</span>
+                </div>
+              </div>
+              <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
+                <button
+                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  type="button"
+                >
+                  View Product
+                </button>
+
+                {/* Action Buttons */}
+                <div className="flex justify-center gap-5 mt-4">
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (9).png" />
+                    <Link className="text-white" href="/Products/Product06">Share</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (10).png" />
+                    <Link className="text-white" href="/Camparison">Compare</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (11).png" />
+                    <Link className="text-white" href="/">Like</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link href="/Products/Product07">
+            <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
+              <Image
+                alt="product"
+                width="600"
+                height="600"
+                className="w-full h-[70%] object-cover"
+                src="/image 7.png"
+              />
+              <div className="ml-2 mt-2">
+                <span className="font-medium  xs:text-base text-[1rem]">Pingky</span>
+                <br />
+                <div className="xs:text-base text-sm mt-2">
+                  <span className="text-[#898989]">Cute bed set</span><br />
+                  <span className="text-[#3A3A3A] text-sm font-medium">Rp 7.000.000</span>
+                </div>
+              </div>
+              <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
+                <button
+                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  type="button"
+                >
+                  View Product
+                </button>
+
+                {/* Action Buttons */}
+                <div className="flex justify-center gap-5 mt-4">
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (9).png" />
+                    <Link className="text-white" href="/Products/Product07">Share</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (10).png" />
+                    <Link className="text-white" href="/Camparison">Compare</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (11).png" />
+                    <Link className="text-white" href="/">Like</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link href="/Products/Product08">
+            <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
+              <Image
+                alt="product"
+                width="600"
+                height="600"
+                className="w-full h-[70%] object-cover"
+                src="/image 8.png"
+              />
+              <div className="ml-2 mt-2">
+                <span className="font-medium  xs:text-base text-[1rem]">Potty</span>
+                <br />
+                <div className="xs:text-base text-sm mt-2">
+                  <span className="text-[#898989]">Minimalist flower pot</span><br />
+                  <span className="text-[#3A3A3A] text-sm font-medium">Rp 500.000</span>
+                </div>
+              </div>
+              <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
+                <button
+                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  type="button"
+                >
+                  View Product
+                </button>
+
+                {/* Action Buttons */}
+                <div className="flex justify-center gap-5 mt-4">
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (9).png" />
+                    <Link className="text-white" href="/Products/Product08">Share</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (10).png" />
+                    <Link className="text-white" href="/Camparison">Compare</Link>
+                  </div>
+                  <div className="flex gap-1 items-center hover:cursor-pointer">
+                    <Image alt="icon" loading="lazy" width="15" height="15" src="/Vector (11).png" />
+                    <Link className="text-white" href="/">Like</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
         </div>
         <div className="w-full flex justify-center gap-5">
         <button className="px-4 py-2 hover:bg-[#B88E2F] hover:text-white mt-12  bg-[#FCF8F3] border-none  text-black rounded text-[15px]">
