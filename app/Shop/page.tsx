@@ -64,7 +64,7 @@ export default function Shop() {
 
     <section className="m-auto mb-10 flex w-full lg:w-[90%] xl:w-[1300px] md:max-w-[1280px] overflow-hidden flex-col">
       <div className="grid grid-rows-4 grid-cols-4 gap-y-[1rem] max-sm:gap-y-[4rem]	mr-10 ml-8 max-sm:mx-5  max-sm:gap-2 items-center justify-center mt-10 max-sm:grid-rows-4 max-sm:grid-cols-2 px-[7.5rem] max-sm:px-0 w-full ">
-      <Link href="">
+      <Link href="/Products/Product01">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative">
         <Image 
             alt="product"
@@ -83,7 +83,7 @@ export default function Shop() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product02">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -102,7 +102,7 @@ export default function Shop() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product03">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -121,7 +121,7 @@ export default function Shop() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product04">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -140,7 +140,7 @@ export default function Shop() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product05">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -159,7 +159,7 @@ export default function Shop() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product06">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -178,7 +178,7 @@ export default function Shop() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product07">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -197,7 +197,7 @@ export default function Shop() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product08">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -216,7 +216,7 @@ export default function Shop() {
              </div>
            </div>
         </Link>
-      <Link href="">
+      <Link href="/Products/Product01">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative">
         <Image 
             alt="product"
@@ -235,7 +235,7 @@ export default function Shop() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product02">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -254,7 +254,7 @@ export default function Shop() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product03">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -273,7 +273,7 @@ export default function Shop() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product04">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -292,7 +292,7 @@ export default function Shop() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product05">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -311,7 +311,7 @@ export default function Shop() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product06">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -330,7 +330,7 @@ export default function Shop() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product07">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -349,7 +349,7 @@ export default function Shop() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product08">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -387,7 +387,7 @@ export default function Shop() {
 
     <section className="m-auto flex w-full lg:w-[90%] xl:w-[1300px] md:max-w-[1280px] overflow-hidden">
     <div className="w-full bg-[#FCF8F3] h-[10rem] max-sm:h-72 grid grid-cols-4 grid-rows-1 max-sm:grid-cols-2 max-sm:grid-rows-2">  
-      <div className="relative top-[3rem] left-8">
+      <div className="relative top-[3rem] left-8 max-sm:left-1">
        <Image
                 alt="Saaddarbari"
                 width="60"
@@ -399,7 +399,7 @@ export default function Shop() {
         <span className="text-[#898989]">crafted from top materials</span>
         </div>
         </div>
-      <div className="relative top-[3rem] left-8">
+      <div className="relative top-[3rem] left-8 max-sm:left-1">
        <Image
                 alt="Saaddarbari"
                 width="60"
@@ -407,11 +407,11 @@ export default function Shop() {
                 src="/Vector (6).png"
               />
               <div className="relative left-[4rem] top-[-2.75rem]">
-        <span className="font-semibold">Warranty Protection</span><br />
+        <span className="font-semibold ">Warranty Protection</span><br />
         <span className="text-[#898989]">Over 2 years</span>
         </div>
         </div>
-      <div className="relative top-[3rem] left-8">
+      <div className="relative top-[3rem] left-8 max-sm:left-1">
        <Image
                 alt="Saaddarbari"
                 width="60"
@@ -423,7 +423,7 @@ export default function Shop() {
         <span className="text-[#898989]">Order over 150 $</span>
         </div>
         </div>
-      <div className="relative top-[3rem] left-8">
+      <div className="relative top-[3rem] left-8 max-sm:left-1">
        <Image
                 alt="Saaddarbari"
                 width="60"

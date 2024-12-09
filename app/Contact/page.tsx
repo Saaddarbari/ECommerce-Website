@@ -88,7 +88,7 @@ export default function Contact() {
 
             <section className="m-auto flex w-full lg:w-[90%] xl:w-[1300px] md:max-w-[1280px] overflow-hidden">
                 <div className="w-full bg-[#FCF8F3] h-[10rem] max-sm:h-72 grid grid-cols-4 grid-rows-1 max-sm:grid-cols-2 max-sm:grid-rows-2">
-                    <div className="relative top-[3rem] left-8">
+                    <div className="relative top-[3rem] left-8 max-sm:left-1">
                         <Image
                             alt="Saaddarbari"
                             width="60"
@@ -100,7 +100,7 @@ export default function Contact() {
                             <span className="text-[#898989]">crafted from top materials</span>
                         </div>
                     </div>
-                    <div className="relative top-[3rem] left-8">
+                    <div className="relative top-[3rem] left-8 max-sm:left-1">
                         <Image
                             alt="Saaddarbari"
                             width="60"
@@ -112,7 +112,7 @@ export default function Contact() {
                             <span className="text-[#898989]">Over 2 years</span>
                         </div>
                     </div>
-                    <div className="relative top-[3rem] left-8">
+                    <div className="relative top-[3rem] left-8 max-sm:left-1">
                         <Image
                             alt="Saaddarbari"
                             width="60"
@@ -124,7 +124,7 @@ export default function Contact() {
                             <span className="text-[#898989]">Order over 150 $</span>
                         </div>
                     </div>
-                    <div className="relative top-[3rem] left-8">
+                    <div className="relative top-[3rem] left-8 max-sm:left-1">
                         <Image
                             alt="Saaddarbari"
                             width="60"

@@ -124,7 +124,7 @@ export default function Home() {
         <h1 className="max-sm:ml-4 text-[32px] font-bold mt-5">Our Products</h1>
       </div>
       <div className="grid grid-rows-1 gap-y-[1rem] max-sm:gap-y-[4rem]	mr-10 ml-8 max-sm:mx-5 grid-cols-4  max-sm:gap-2 items-center justify-center mt-10 max-sm:grid-rows-4 max-sm:grid-cols-2 px-[7.5rem] max-sm:px-0 w-full ">
-      <Link href="">
+        <Link href="/Products/Product01">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative">
         <Image 
             alt="product"
@@ -143,7 +143,7 @@ export default function Home() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product02">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -162,7 +162,7 @@ export default function Home() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product03">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -181,7 +181,7 @@ export default function Home() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product04">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -200,7 +200,7 @@ export default function Home() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product05">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -219,7 +219,7 @@ export default function Home() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product06">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -238,7 +238,7 @@ export default function Home() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product07">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
@@ -257,7 +257,7 @@ export default function Home() {
              </div>
            </div>
         </Link>
-        <Link href="">
+        <Link href="/Products/Product08">
         <div className="sm:w-60 xl:h-[20rem] xs:w-52 xs:h-44 w-36 max-sm:h-40 bg-[#F5F5F5] relative group">
         <Image 
             alt="product"
