@@ -149,7 +149,7 @@ export default function Home() {
               {/* Hover Overlay */}
               <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
                 <button
-                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  className="inline-flex items-center justify-center text-sm max-sm:px-4 max-sm:py-1  px-8   py-2  text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
                   type="button"
                 >
                   View Product
@@ -193,7 +193,7 @@ export default function Home() {
               </div>
               <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
                 <button
-                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  className="inline-flex items-center justify-center text-sm px-8 py-2 max-sm:px-4 max-sm:py-1  text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
                   type="button"
                 >
                   View Product
@@ -236,7 +236,7 @@ export default function Home() {
               </div>
               <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
                 <button
-                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  className="inline-flex items-center justify-center text-sm px-8 py-2  max-sm:px-4 max-sm:py-1 text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
                   type="button"
                 >
                   View Product
@@ -279,7 +279,7 @@ export default function Home() {
               </div>
               <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
                 <button
-                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  className="inline-flex items-center justify-center text-sm px-8 py-2  max-sm:px-4 max-sm:py-1 text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
                   type="button"
                 >
                   View Product
@@ -322,7 +322,7 @@ export default function Home() {
               </div>
               <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
                 <button
-                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  className="inline-flex items-center justify-center text-sm px-8 py-2  max-sm:px-4 max-sm:py-1 text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
                   type="button"
                 >
                   View Product
@@ -365,7 +365,7 @@ export default function Home() {
               </div>
               <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
                 <button
-                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  className="inline-flex items-center justify-center text-sm px-8 py-2 max-sm:px-4 max-sm:py-1  text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
                   type="button"
                 >
                   View Product
@@ -408,7 +408,7 @@ export default function Home() {
               </div>
               <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
                 <button
-                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  className="inline-flex items-center justify-center text-sm px-8 py-2  max-sm:px-4 max-sm:py-1 text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
                   type="button"
                 >
                   View Product
@@ -451,7 +451,7 @@ export default function Home() {
               </div>
               <div className="absolute left-0 top-0 w-full h-full bg-[#3A3A3A]/80 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center">
                 <button
-                  className="inline-flex items-center justify-center text-sm px-8 py-2   text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
+                  className="inline-flex items-center justify-center text-sm px-8 py-2  max-sm:px-4 max-sm:py-1 text-[#B88E2F] text-[2rem] font-bold bg-gray-100 border border-[#B88E2F] rounded transition-colors"
                   type="button"
                 >
                   View Product
