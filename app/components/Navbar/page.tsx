@@ -1,14 +1,12 @@
 "use client"
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faHeart as faRegularHeart } from '@fortawesome/free-regular-svg-icons';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar() {
-  const [cartCount, setCartCount] = useState(0);
   return (
    <nav className=" top-0 z-30 w-full print:hidden">
       <div className="m-auto flex h-10 w-[100%] items-end justify-between max-sm:flex md:h-16 mb-5 lg:w-[90%] xl:w-[1300px]">
