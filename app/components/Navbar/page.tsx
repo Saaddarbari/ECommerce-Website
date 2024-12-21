@@ -62,13 +62,11 @@ export default function Navbar() {
             <button className=' text-[18px]'>
                 <FontAwesomeIcon icon={faRegularHeart}  />
             </button>
+            <Link href="/Cart">
            <div style={{ position: 'relative',  color: '#333', cursor: 'pointer' ,display: 'flex',justifyContent:'center' ,alignItems:'center', fontSize: '18px' }}>
-                <FontAwesomeIcon icon={faShoppingCart} onClick={() => setCartCount(cartCount + 1)} />
-                 {cartCount > 0 && (
-                  <span className='absolute top-[-8px] right-[-10px] bg-[#ff0000] rounded-2xl text-white px-2 py-1 text-[12px]'>
-                    {cartCount}
-                  </span>)}
+                <FontAwesomeIcon icon={faShoppingCart} />       
            </div>
+           </Link>
        </div>
        </div>
         
