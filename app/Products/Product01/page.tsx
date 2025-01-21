@@ -119,7 +119,9 @@ export default function Product01() {
                                 <button className=" bg-white text-black hover:bg-white border border-black rounded-[10px] px-10 py-4  max-sm:px-9" type="button">Add to Cart</button>
                             </div>
                             <div>
-                                <button className=" bg-white text-black hover:bg-white border border-black rounded-[10px] px-10 py-4 max-sm:px-9" type="button">+ Compare</button>
+                                <Link href="/Camparison">
+                                  <button className=" bg-white text-black hover:bg-white border border-black rounded-[10px] px-10 py-4 max-sm:px-9" type="button">+ Compare</button>
+                                </Link>
                             </div>
                             </div>
                         </div>
