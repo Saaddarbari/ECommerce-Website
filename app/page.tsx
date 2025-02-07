@@ -1,7 +1,7 @@
 "use client"
 import { client } from "@/sanity/lib/client";
 import { urlFor } from "@/sanity/lib/image";
-import { eight, four } from "@/sanity/lib/queries";
+import { eight} from "@/sanity/lib/queries";
 import { Product } from "@/types/product";
 import Image from "next/image";
 import Link from "next/link";

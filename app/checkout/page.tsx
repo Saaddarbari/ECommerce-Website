@@ -477,9 +477,11 @@ const Checkout = () => {
 
             <hr />
             {cart.map((item) => (
-              <button onClick={() => clearCartAfterPlaceOrder(item.id)}>
+              <button key={item.id} onClick={() => clearCartAfterPlaceOrder(item.id)}>
                 <OrderButton cartItems={cartItems} setCartItems={setCartItems} />
-              </button>))}
+              </button>
+            ))}
+
           </div>
 
         </div>

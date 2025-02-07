@@ -43,7 +43,7 @@ const OrderReceipt = () => {
           Order Receipt
         </h1>
         <p className="text-center text-gray-600 mb-4">Order ID: {orderDetails.orderId}</p>
-        
+
         <div className="border-t border-gray-300 my-4"></div>
 
         <h2 className="text-xl font-semibold mb-2">Order Summary</h2>
@@ -57,13 +57,13 @@ const OrderReceipt = () => {
         </ul>
 
         <div className="border-t border-gray-300 my-4"></div>
-
         <div className="flex justify-between font-semibold text-lg">
           <span>Total Amount:</span>
           {orderDetails.items.map((item) => (
-           <span>Rs. {(item.price * item.quantity).toFixed(2)}</span>
-        ))}
+            <span key={item.id}>Rs. {(item.price * item.quantity).toFixed(2)}</span>
+          ))}
         </div>
+
 
         <p className="text-gray-500 mt-4 text-sm">Order Date: {orderDetails.date}</p>
 

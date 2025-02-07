@@ -11,7 +11,6 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { Product } from "@/types/product";
 import { four } from "@/sanity/lib/queries";
 import { urlFor } from "@/sanity/lib/image";
-import Swal from 'sweetalert2'
 import { useCart } from "../Cart/context/CartContext";
 
 
