@@ -35,7 +35,7 @@ const ProductDetails = ({ productId }: { productId: string }) => {
   const [result, setResult] = useState<IProducts | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [product,setProduct] = useState<Product[]>([])
-  const { addToCart } = useCart();
+  const { addToCart,updateQuantity } = useCart();
 
   useEffect(() => {
     async function FetchProduct() {
@@ -90,10 +90,6 @@ const ProductDetails = ({ productId }: { productId: string }) => {
     }
 
   const imageUrl = result.productImage?.asset?.url || "/placeholder.jpg";
-
-  function updateQuantity(id: any, arg1: number): void {
-    throw new Error("Function not implemented.");
-  }
 
   return (
     <main>
@@ -192,17 +188,7 @@ const ProductDetails = ({ productId }: { productId: string }) => {
                             </nav>
                         </div>
                         <div className="flex gap-[18px] items-center mt-[3rem] max-sm:mx-0 max-sm:my-5">
-                            {/* <div className="inline-flex h-[64px] px-[15px] gap-[35px] items-center border border-customGray2 rounded-[10px]">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                    className="lucide lucide-minus cursor-pointer">
-                                    <path d="M5 12h14"></path>
-                                </svg>
-                                <p className="font-semibold text-normal select-none">1</p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-plus cursor-pointer">
-                                    <path d="M5 12h14"></path>
-                                    <path d="M12 5v14"></path>
-                                </svg>
-                            </div> */}
+                           
                             <div className="flex items-center space-x-4">
                 <button
                   onClick={() => updateQuantity(result._id, result.inventory - 1)}
