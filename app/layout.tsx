@@ -6,6 +6,7 @@ import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import Navbar from "./components/Navbar/page";
 import Footer from "./components/Footer/page";
+import { CartProvider } from "./Cart/context/CartContext";
 config.autoAddCss = false
 
 
@@ -35,9 +36,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar />
-        {children}
-        <Footer />
+        <CartProvider>
+            <Navbar />
+              {children}
+            <Footer />
+        </CartProvider>
       </body>
     </html>
   );

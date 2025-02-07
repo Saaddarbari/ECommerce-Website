@@ -4,7 +4,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faHeart as faRegularHeart } from '@fortawesome/free-regular-svg-icons';
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar() {
   return (
@@ -45,14 +45,17 @@ export default function Navbar() {
               </li>
           </ul>
           
-        <div className='flex gap-8 mr-14 max-sm:gap-4 '>
-            <button type="submit"  className=''>
-            <Image
-                alt="Saaddarbari"
-                width="20"
-                height="29"
-                src="/Vector (1).png"
-              />
+        <div className='flex gap-8 mr-14 max-sm:gap-4 max-sm:mr-7'>
+        <button type="submit"  >
+            {/* <Image 
+                        alt="product"
+                        width="20" 
+                        height="20"
+                        src="/Vector (12).png"
+                        className='items-center justify-center flex'
+                        /> */}
+              <FontAwesomeIcon icon={faUser} className="font-[20px]" />
+
             </button>
             <button type="submit">
                 <FontAwesomeIcon icon={faSearch}/>
@@ -61,9 +64,15 @@ export default function Navbar() {
                 <FontAwesomeIcon icon={faRegularHeart}  />
             </button>
             <Link href="/Cart">
-           <div style={{ position: 'relative',  color: '#333', cursor: 'pointer' ,display: 'flex',justifyContent:'center' ,alignItems:'center', fontSize: '18px' }}>
-                <FontAwesomeIcon icon={faShoppingCart} />       
-           </div>
+            <button type="submit"  >
+            <Image 
+                        alt="product"
+                        width="20" 
+                        height="20"
+                        src="/Vector (12).png"
+                        className='items-center justify-center flex'
+                        />
+            </button>
            </Link>
        </div>
        </div>
