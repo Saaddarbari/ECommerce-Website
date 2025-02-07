@@ -2,11 +2,8 @@
 import Image from "next/image";
 import { useCart } from "./context/CartContext";
 import { urlFor } from "@/sanity/lib/image";
-import React, { useEffect, useState } from "react";
 import Swal from "sweetalert2";
 import { useRouter } from "next/navigation"; // Correct import
-import { Product } from "@/types/product";
-import { getCartItems } from "../actions/actions";
 import { faTimes, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

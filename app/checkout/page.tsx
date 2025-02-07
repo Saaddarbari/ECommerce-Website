@@ -57,7 +57,6 @@ const Checkout = () => {
   const router = useRouter();
   const [province, setProvince] = useState("");
   const [cartItems, setCartItems] = useState<Product[]>([]);
-  const [isProcessing, setIsProcessing] = useState(false);
 
   const { cart, clearCartAfterPlaceOrder } = useCart();
 
@@ -125,7 +124,6 @@ const Checkout = () => {
     }
 
     setErrors({});
-    setIsProcessing(true);
 
     const fullName = `${customerInfo.firstName} ${customerInfo.lastName}`;
     const customerData = { ...customerInfo, fullName };
@@ -252,7 +250,6 @@ const Checkout = () => {
 
       const sanityResult = await sanityResponse.json();
       console.log("Order Saved to Sanity:", sanityResult);
-      setIsProcessing(false);
       // Navigate to Order Confirmation Page
       router.push(`/order-confirmation/order?orderId=${sanityResult._id}`);
     } catch (error) {
