@@ -53,7 +53,7 @@ export default function Home() {
             <div className="mb-5">
               <Image
                 alt="Saaddarbari"
-                width="381"
+                width="382"
                 height="480"
                 src="/image 106.png"
               />
@@ -87,48 +87,7 @@ export default function Home() {
 
         </div>
 
-        {/* <div className="mt-10 max-sm:grid-rows-3 max-sm:grid-cols-1  w-full xl:hidden">
-          <div className="h-[470px] w-[316px] border border-none rounded-lg max-sm:h-[200px] max-sm:w-[160px] content-center">
-            <div className="mb-5">
-              <Image
-                alt="Saaddarbari"
-                width="381"
-                height="480"
-                src="/image 106.png"
-              />
-
-            </div>
-            <span className="mx-[7rem] font-semibold text-[1.5rem]   max-sm:hidden">Dining</span>
-          </div>
-          <span className="mx-[7rem] font-semibold text-[2rem] relative left-[5.25rem] bottom-[8rem] xl:hidden">Dining</span>
-          <div className="h-[470px] w-[316px] border border-none rounded-lg max-sm:h-[200px] max-sm:w-[160px] content-center">
-            <div className="mb-5">
-              <Image
-                alt="Saaddarbari"
-                width="381"
-                height="480"
-                src="/image 100.png"
-              />
-
-            </div>
-            <span className="mx-[7rem] font-semibold text-[1.5rem]  max-sm:hidden">Living</span>
-          </div>
-          <span className="mx-[7rem] font-semibold text-[2rem] relative left-[5.25rem] bottom-[8rem] xl:hidden">Living</span>
-          <div className="h-[470px] w-[316px] border border-none rounded-lg max-sm:h-[200px] max-sm:w-[160px] content-center">
-            <div className="mb-5">
-              <Image
-                alt="Saaddarbari"
-                width="381"
-                height="480"
-                src="/image 101.png"
-              />
-
-            </div>
-            <span className="mx-[7rem] font-semibold text-[1.5rem]  max-sm:hidden">Bedroom</span>
-          </div>
-          <span className="mx-[7rem] font-semibold text-[2rem] relative left-[5.25rem] bottom-[8rem]  xl:hidden">Bedroom</span>
-
-        </div> */}
+      
 
       </section>
 
