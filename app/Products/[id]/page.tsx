@@ -4,9 +4,12 @@ interface IParams {
   id: string;
 }
 
-export default function ProductDetailsPage({ params }: { params: IParams }) {
-  const { id } = params; // Extract dynamic ID from the route
+// export default function ProductDetailsPage({ params }: { params: IParams }) {
+//   const { id } = params; // Extract dynamic ID from the route
 
-  return <ProductDetails productId={id} />; // Pass the ID to a reusable component
+//   return <ProductDetails productId={id} />; // Pass the ID to a reusable component
   
+// }
+export default function ProductDetailsPage({ params }: { params: { id: string } }) {
+  return <ProductDetails productId={params.id} />;
 }
