@@ -11,14 +11,8 @@ import { faTimes, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const CartPage = () => {
-  const [cartItems, setCartItems] = useState<Product[]>([]);
   const { cart, updateQuantity, removeFromCart } = useCart();
   const router = useRouter(); // ✅ Ensure correct useRouter hook
-  const [orderPlaced, setOrderPlaced] = useState(false); // Track if order is placed
-
-  useEffect(() => {
-    setCartItems(getCartItems());
-  }, []);
 
   const calculateTotal = () =>
     cart.reduce((total, item) => total + item.price * item.quantity, 0);
@@ -33,7 +27,6 @@ const CartPage = () => {
     }).then(() => {
       router.prefetch("/checkout"); // ✅ Prefetch the checkout page
       router.push("/checkout"); // ✅ Ensure navigation happens
-      setCartItems([]); // ✅ Correct function name
     });
   };
 

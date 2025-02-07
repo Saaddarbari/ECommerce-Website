@@ -1,15 +1,12 @@
 "use client"
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import Swal from "sweetalert2";
 import { Product } from "@/types/product";
 import { getCartItems } from "../actions/actions";
 import { z } from "zod";
 import { useRouter } from "next/navigation";
 import { useCart } from "../Cart/context/CartContext";
-import Link from "next/link";
 import OrderButton from "../components/OrderButton";
-// import OrderButton from "../OrderButton";
 
 
 const customerSchema = z.object({
@@ -62,7 +59,7 @@ const Checkout = () => {
   const [cartItems, setCartItems] = useState<Product[]>([]);
   const [isProcessing, setIsProcessing] = useState(false);
 
-  const { cart, updateQuantity, clearCartAfterPlaceOrder } = useCart();
+  const { cart, clearCartAfterPlaceOrder } = useCart();
 
   useEffect(() => {
     const items = getCartItems();
@@ -75,67 +72,6 @@ const Checkout = () => {
         total + item.price * item.quantity,
       0
     );
-
-  // const handleProceed = () => {
-  //   Swal.fire({
-  //     title: `Place order Successfully`,
-  //     text: "Enjoy Shopping",
-  //     icon: "success",
-  //     timer: 1500,
-  //     showConfirmButton: false,
-  //   }).then(() => {
-  //     router.prefetch("/");
-  //     router.push("/");
-  //     setCartItems([]);
-  //   });
-  // };
-
-  // interface OrderItem {
-  //   name: string;
-  //   price: number;
-  //   quantity: number;
-  // }
-
-  // interface Props {
-  //   cartItems: OrderItem[];
-  //   setCartItems: (items: OrderItem[]) => void;
-  // }
-
-  // const OrderButton = ({ cartItems, setCartItems }: Props) => {
-  //   const router = useRouter();
-  // }
-
-  // const handleProceed = () => {
-  //   if (cartItems.length === 0) {
-  //     Swal.fire({
-  //       title: "Cart is Empty!",
-  //       text: "Please add items to your cart before placing an order.",
-  //       icon: "warning",
-  //     });
-  //     return;
-  //   }
-
-  //   const orderDetails = {
-  //     orderId: Math.floor(Math.random() * 1000000),
-  //     items: cartItems,
-  //     totalAmount: cartItems.reduce((sum, item) => sum + item.price * item.inventory, 0),
-  //     date: new Date().toLocaleString(),
-  //   };
-
-  //   localStorage.setItem("orderReceipt", JSON.stringify(orderDetails));
-
-  //   Swal.fire({
-  //     title: "Order Placed Successfully!",
-  //     text: "Your receipt has been generated.",
-  //     icon: "success",
-  //     timer: 1500,
-  //     showConfirmButton: false,
-  //   }).then(() => {
-  //     router.push("/order-receipt");
-  //   });
-
-  //   setCartItems([]); // Clear cart after placing order
-  // };}
   const [customerInfo, setCustomerInfo] = useState({
     firstName: "",
     lastName: "",

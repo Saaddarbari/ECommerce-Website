@@ -72,15 +72,6 @@ const ProductDetails = ({ productId }: { productId: string }) => {
     fetchProductDetails();
   }, [productId]);
 
-  const handleAddToCart = (e: React.MouseEvent, products: Product[]) => {
-    e.preventDefault();
-    Swal.fire({
-      title: `${result?.title} added to cart`,
-      text: "Added suceesfully",
-      icon: "success"
-    });
-  
-  };
   
   if (loading) {
     return <p className="flex justify-center items-center min-h-screen"><div
